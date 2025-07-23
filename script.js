@@ -3,7 +3,7 @@
 // ================================================================================
 
 // !!! IMPORTANTE: Substitua pela URL da sua API do Google Apps Script !!!
-const API_URL = "COLE_A_URL_DA_SUA_IMPLANTAÇÃO_AQUI";
+const API_URL = "https://script.google.com/macros/s/AKfycbz2CVXUG4MGJTh2ZKtCjPNRr63_6PX9wDhGP9wAnK_LAVxZntUM0XicfAlCEPmhb3CA/exec";
 
 let DADOS_APP = {};
 const PENDING_SUBMISSIONS_KEY = 'sigte_pending_submissions';
