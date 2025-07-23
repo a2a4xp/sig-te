@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIG-TE - Painel de Lançamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="header">
+        <h1>SIG-TE - Painel de Lançamentos (v19.0)</h1>
+        <p>Sistema Integrado de Gestão do Transporte Escolar</p>
+        <div id="connection-status" class="status-indicator offline" style="display: none;">
+          <span class="dot"></span>
+          <span>Offline. Suas respostas serão salvas.</span>
+        </div>
+      </div>
+      <div id="loading-spinner" class="spinner"></div>
+      <div id="main-content" style="display:none;">
+        <!-- Todo o resto do seu HTML do <body> vai aqui, sem alterações -->
+      </div>
+      <div id="status-message" class="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
